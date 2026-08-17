@@ -197,8 +197,18 @@ h3 {
 
 .hero-subtitle {
   max-width: 640px;
+  color: rgba(255, 255, 255, 0.82);
   font-size: 21px;
   letter-spacing: -0.02em;
+}
+
+.hero h1 {
+  color: var(--white);
+  text-shadow: 0 10px 45px rgba(0, 0, 0, 0.42);
+}
+
+.hero .button-primary {
+  box-shadow: 0 16px 42px rgba(0, 113, 227, 0.28);
 }
 
 .hero-actions,
