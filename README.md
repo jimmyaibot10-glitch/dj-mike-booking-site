@@ -45,11 +45,13 @@ assets/photos/client/dj-mike-formal-booth.jpg
 Media cards/photo strip:
 
 ```text
-assets/videos/dj-mike-event-highlight.mp4
-assets/videos/dj-mike-event-highlight-poster.jpg
+assets/videos/dj-mike-reception-dance-floor.mp4
+assets/videos/dj-mike-reception-dance-floor-poster.jpg
+assets/videos/dj-mike-backyard-pool-party.mp4
+assets/videos/dj-mike-backyard-pool-party-poster.jpg
+assets/videos/dj-mike-controller-broll.mp4
+assets/videos/dj-mike-controller-broll-poster.jpg
 assets/photos/client/dj-mike-portrait-laptop.jpg
-assets/photos/client/dj-mike-backyard-mic.jpg
-assets/photos/client/dj-mike-night-speaker-setup.jpg
 assets/photos/client/dj-mike-formal-booth.jpg
 assets/photos/client/dj-mike-night-angle-setup.jpg
 assets/photos/client/dj-mike-headphones-booth.jpg
