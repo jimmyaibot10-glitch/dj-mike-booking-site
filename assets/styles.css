@@ -363,6 +363,25 @@ h3 {
   background: rgba(255, 255, 255, 0.72);
 }
 
+.contact-card {
+  color: white;
+  background: radial-gradient(circle at 18% 16%, rgba(41, 151, 255, 0.46), transparent 34%), linear-gradient(135deg, #070a12, #121827 52%, #031225);
+}
+
+.contact-card h3 {
+  margin: 14px 0 12px;
+  font-size: clamp(28px, 3.3vw, 42px);
+}
+
+.contact-card a,
+.contact-card span {
+  display: block;
+  color: rgba(255, 255, 255, 0.82);
+  font-size: 16px;
+  line-height: 1.55;
+  overflow-wrap: anywhere;
+}
+
 .icon,
 .event-icon {
   display: inline-flex;
@@ -386,6 +405,32 @@ h3 {
 .price-card {
   border-radius: 30px;
   padding: 18px;
+}
+
+.media-photo-grid {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.media-image {
+  width: 100%;
+  height: 260px;
+  margin-bottom: 20px;
+  border-radius: 24px;
+  object-fit: cover;
+  object-position: center;
+  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.28);
+}
+
+.media-photo-grid .video-card:nth-child(2) .media-image {
+  object-position: center top;
+}
+
+.media-photo-grid .video-card:nth-child(3) .media-image {
+  object-position: center center;
+}
+
+.media-photo-grid .video-card:nth-child(4) .media-image {
+  object-position: center top;
 }
 
 .video-placeholder {
@@ -432,6 +477,22 @@ h3 {
   padding: 20px;
   border-radius: 28px;
   background: linear-gradient(135deg, rgba(255, 255, 255, 0.12), rgba(41, 151, 255, 0.12)), #111827;
+  background-position: center;
+  background-size: cover;
+}
+
+.image-tile {
+  position: relative;
+  isolation: isolate;
+}
+
+.image-tile::before {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  border-radius: inherit;
+  background: linear-gradient(180deg, transparent 35%, rgba(0, 0, 0, 0.72));
+  content: "";
 }
 
 .photo-tile.large {
@@ -606,6 +667,13 @@ a:focus-visible {
   padding: 34px max(24px, calc((100vw - 1160px) / 2));
   color: white;
   background: #050505;
+}
+
+.footer-contact {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  justify-content: flex-end;
 }
 
 .site-footer p {

@@ -1,135 +1,61 @@
-# DJ Mike Booking Site
+# DJ Mik-E Booking Site
 
-Status: `prototype`
+Client-facing event DJ landing page for **DJ Mik-E**.
 
-Apple/liquid-glass inspired personal DJ booking website for **DJ Mike**.
-
-## Main file
+## Live site
 
 ```text
-index.html
+https://dj-mike-booking-site.vercel.app
 ```
 
-Open locally:
+## Local folder
 
 ```text
-E:\Website creations\DJ Mike Booking Site\index.html
+E:\Website creations\DJ Mike Booking Site
 ```
 
 ## Project goal
 
-Build a clean landing page that helps people quickly decide whether to book DJ Mike for an event.
+A polished booking page that helps visitors quickly understand DJ Mik-E's event style, view real event photos, and request availability.
 
 Primary website jobs:
 
-1. Showcase DJ Mike as a polished event DJ.
-2. Display videos and event photos.
-3. Explain event types and pricing tiers.
-4. Let visitors request/reserve a date.
-5. Keep content easy to swap later once real photos/videos are available.
+1. Present DJ Mik-E as a polished event DJ.
+2. Show real photos from recent events and setups.
+3. Explain event types and booking options.
+4. Let visitors create a clean booking inquiry summary.
+5. Provide phone, email, and social contact details.
 
-## Design direction
-
-Requested style:
-
-- Apple-inspired layout and typography.
-- Liquid glass theme.
-- Streamlined, premium UI.
-- Icons/cards with clean event categories.
-- Media-forward layout.
-
-Implemented as:
-
-- translucent sticky nav with blur.
-- cinematic hero section.
-- glassmorphism cards.
-- blue/violet lighting accents.
-- original generated placeholder images.
-- mobile-responsive sections.
-
-## Generated images
-
-The placeholder images were generated for this project and copied into:
+## Contact details used on the site
 
 ```text
-assets/images/generated/dj-mike-hero.png
-assets/images/generated/liquid-glass-dj-icon.png
+Phone: 646 338 4962
+Email: bookdjmikenyc@gmail.com
+Handle: @djmikenyc
 ```
 
-These are original generated placeholders and can be replaced later with real DJ/event photography.
+## Current media choices
 
-## Media directories
-
-Add future content here:
+Main hero:
 
 ```text
-assets/photos/
-assets/videos/
+assets/photos/client/live-show-dj-mike.jpg
 ```
 
-Recommended photo types:
+Media cards/photo strip:
 
 ```text
-.jpg
-.png
-.webp
+assets/photos/client/dj-mike-headphones-booth.jpg
+assets/photos/client/dj-mike-outdoor-setup.jpg
+assets/photos/client/pioneer-serato-setup.jpg
+assets/photos/client/dj-mike-formal-portrait.jpg
 ```
 
-Recommended video types:
+Original card reference kept for internal reference only:
 
 ```text
-.mp4
-.webm
+assets/photos/client/original-dj-card-reference.jpg
 ```
-
-For social/YouTube content, replace the current video placeholder cards in `index.html` with embeds.
-
-## Booking flow
-
-The current booking form is frontend-only.
-
-It collects:
-
-- name
-- phone/email
-- event type
-- event date
-- start time
-- location/town
-- event details
-
-On submit it creates a booking inquiry summary and saves the last 20 inquiries to browser `localStorage` under:
-
-```text
-dj_mike_booking_inquiries
-```
-
-## Event tiers
-
-Current placeholder tiers:
-
-| Event type | Pricing expectation |
-|---|---|
-| Backyard / house party | Starter / lower-budget |
-| Birthday / private party | Standard |
-| Wedding | Premium |
-| Corporate / formal | Custom quote |
-
-Actual prices still need to be chosen by DJ Mike.
-
-## Next steps
-
-- Replace placeholder visuals with DJ Mike’s real photos.
-- Add real video embeds or local clips.
-- Choose actual pricing ranges.
-- Add social links.
-- Add contact email/phone.
-- Decide scheduler integration:
-  - Calendly
-  - TidyCal
-  - Google Calendar appointment schedule
-  - simple email form endpoint
-  - custom backend
 
 ## Files
 
@@ -138,8 +64,7 @@ index.html
 assets/styles.css
 assets/scripts.js
 assets/images/generated/
-assets/photos/
+assets/photos/client/
 assets/videos/
 docs/
-archive/
 ```

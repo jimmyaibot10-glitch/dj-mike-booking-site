@@ -12,7 +12,7 @@ const eventTierLabels = {
 function formatInquiry(formData) {
   const eventType = formData.get('eventType');
   return [
-    'DJ Mike booking inquiry',
+    'DJ Mik-E booking inquiry',
     '------------------------',
     `Name: ${formData.get('name')}`,
     `Contact: ${formData.get('contact')}`,
@@ -25,7 +25,7 @@ function formatInquiry(formData) {
     'Details:',
     formData.get('details') || 'No extra details provided yet.',
     '',
-    'Next step: connect this form to email, Google Calendar, Calendly/TidyCal, or a small backend.'
+    'Next step: send this inquiry to DJ Mik-E by phone, email, or booking message.'
   ].join('\n');
 }
 
