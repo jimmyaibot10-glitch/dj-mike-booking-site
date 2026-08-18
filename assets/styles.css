@@ -7,9 +7,9 @@
   --text: #1d1d1f;
   --muted: rgba(255, 255, 255, 0.68);
   --muted-dark: rgba(29, 29, 31, 0.68);
-  --blue: #0071e3;
-  --blue-bright: #2997ff;
-  --violet: #8b5cf6;
+  --blue: #8b5cf6;
+  --blue-bright: #c084fc;
+  --violet: #a855f7;
   --glass: rgba(255, 255, 255, 0.12);
   --glass-border: rgba(255, 255, 255, 0.22);
   --shadow: rgba(0, 0, 0, 0.22) 3px 5px 30px 0;
@@ -46,7 +46,7 @@ code {
   border-radius: 8px;
   padding: 2px 6px;
   color: #0f172a;
-  background: rgba(0, 113, 227, 0.1);
+  background: rgba(139, 92, 246, 0.14);
 }
 
 .site-nav {
@@ -113,7 +113,7 @@ code {
 
 .section-dark {
   color: white;
-  background: radial-gradient(circle at top right, rgba(41, 151, 255, 0.26), transparent 34%), #000;
+  background: radial-gradient(circle at top right, rgba(139, 92, 246, 0.32), transparent 34%), #000;
 }
 
 .section-light {
@@ -208,7 +208,7 @@ h3 {
 }
 
 .hero .button-primary {
-  box-shadow: 0 16px 42px rgba(0, 113, 227, 0.28);
+  box-shadow: 0 16px 42px rgba(139, 92, 246, 0.36);
 }
 
 .hero-actions,
@@ -246,8 +246,8 @@ h3 {
 
 .button-ghost {
   color: var(--blue-bright);
-  border-color: rgba(41, 151, 255, 0.55);
-  background: rgba(41, 151, 255, 0.08);
+  border-color: rgba(192, 132, 252, 0.62);
+  background: rgba(139, 92, 246, 0.13);
 }
 
 .full {
@@ -304,13 +304,13 @@ h3 {
 .orb-one {
   top: -70px;
   right: -30px;
-  background: radial-gradient(circle, rgba(41, 151, 255, 0.7), transparent 66%);
+  background: radial-gradient(circle, rgba(192, 132, 252, 0.74), transparent 66%);
 }
 
 .orb-two {
   bottom: -50px;
   left: -40px;
-  background: radial-gradient(circle, rgba(139, 92, 246, 0.72), transparent 67%);
+  background: radial-gradient(circle, rgba(236, 72, 153, 0.56), transparent 67%);
 }
 
 .glass-frame {
@@ -375,7 +375,7 @@ h3 {
 
 .contact-card {
   color: white;
-  background: radial-gradient(circle at 18% 16%, rgba(41, 151, 255, 0.46), transparent 34%), linear-gradient(135deg, #070a12, #121827 52%, #031225);
+  background: radial-gradient(circle at 18% 16%, rgba(139, 92, 246, 0.52), transparent 34%), linear-gradient(135deg, #070a12, #121827 52%, #150923);
 }
 
 .contact-card h3 {
@@ -401,7 +401,7 @@ h3 {
   justify-content: center;
   margin-bottom: 28px;
   border-radius: 18px;
-  background: rgba(0, 113, 227, 0.1);
+  background: rgba(139, 92, 246, 0.14);
   font-size: 24px;
 }
 
@@ -437,8 +437,8 @@ h3 {
 }
 
 .video-feature {
-  border-color: rgba(41, 151, 255, 0.42);
-  background: linear-gradient(180deg, rgba(41, 151, 255, 0.14), rgba(255, 255, 255, 0.08));
+  border-color: rgba(192, 132, 252, 0.48);
+  background: linear-gradient(180deg, rgba(139, 92, 246, 0.20), rgba(255, 255, 255, 0.08));
 }
 
 .media-photo-grid .video-card:nth-child(2) .media-image {
@@ -460,15 +460,15 @@ h3 {
   justify-items: center;
   margin-bottom: 20px;
   border-radius: 24px;
-  background: radial-gradient(circle at 50% 20%, rgba(41, 151, 255, 0.38), transparent 40%), linear-gradient(135deg, #171923, #030712);
+  background: radial-gradient(circle at 50% 20%, rgba(139, 92, 246, 0.46), transparent 40%), linear-gradient(135deg, #171923, #030712);
 }
 
 .video-placeholder.violet {
-  background: radial-gradient(circle at 60% 20%, rgba(139, 92, 246, 0.42), transparent 40%), linear-gradient(135deg, #171326, #04040b);
+  background: radial-gradient(circle at 60% 20%, rgba(168, 85, 247, 0.48), transparent 40%), linear-gradient(135deg, #171326, #04040b);
 }
 
 .video-placeholder.blue {
-  background: radial-gradient(circle at 45% 20%, rgba(34, 211, 238, 0.32), transparent 40%), linear-gradient(135deg, #071827, #030712);
+  background: radial-gradient(circle at 45% 20%, rgba(217, 70, 239, 0.34), transparent 40%), linear-gradient(135deg, #140724, #030712);
 }
 
 .play {
@@ -496,7 +496,7 @@ h3 {
   align-items: end;
   padding: 20px;
   border-radius: 28px;
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.12), rgba(41, 151, 255, 0.12)), #111827;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.12), rgba(139, 92, 246, 0.16)), #111827;
   background-position: center;
   background-size: cover;
 }
@@ -539,7 +539,7 @@ h3 {
 
 .featured-card {
   color: white;
-  background: radial-gradient(circle at top right, rgba(139, 92, 246, 0.5), transparent 40%), #111827;
+  background: radial-gradient(circle at top right, rgba(168, 85, 247, 0.58), transparent 40%), #111827;
 }
 
 .featured-card p {
@@ -556,8 +556,8 @@ h3 {
 }
 
 .price-card.premium {
-  border-color: rgba(41, 151, 255, 0.55);
-  background: linear-gradient(180deg, rgba(41, 151, 255, 0.2), rgba(255, 255, 255, 0.08));
+  border-color: rgba(192, 132, 252, 0.62);
+  background: linear-gradient(180deg, rgba(139, 92, 246, 0.26), rgba(255, 255, 255, 0.08));
 }
 
 .package-label {
