@@ -1,0 +1,52 @@
+name: Owner site change request
+description: Track a DJ Mik-E website update requested by the owner.
+title: "Owner update: "
+labels:
+  - owner-request
+  - needs-review
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this for owner-requested updates from email, text, or calls. Do not deploy until the request is reviewed and approved.
+  - type: input
+    id: source
+    attributes:
+      label: Request source
+      description: Email/message/call source. Do not include passwords, tokens, or private credentials.
+      placeholder: Owner email received on YYYY-MM-DD
+    validations:
+      required: true
+  - type: textarea
+    id: requested-change
+    attributes:
+      label: Requested change
+      description: What should change on the site?
+    validations:
+      required: true
+  - type: textarea
+    id: affected-sections
+    attributes:
+      label: Affected site sections
+      placeholder: Hero, contact card, booking form, media gallery, pricing, event types, etc.
+  - type: textarea
+    id: exact-copy
+    attributes:
+      label: Exact copy, if provided
+      description: Paste owner-provided wording here if they gave exact text.
+  - type: textarea
+    id: media
+    attributes:
+      label: Media/attachments
+      description: List attachment names or Drive links. Keep original files out of GitHub until curated/optimized.
+  - type: checkboxes
+    id: approval
+    attributes:
+      label: Approval checklist
+      options:
+        - label: Request verified as coming from owner/approved contact
+        - label: Change approved by Chris before code edit
+        - label: Media reviewed for quality and privacy
+        - label: Local site checked after edit
+        - label: GitHub push completed
+        - label: Live Vercel deployment verified

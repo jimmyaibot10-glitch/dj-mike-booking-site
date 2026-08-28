@@ -74,4 +74,25 @@ assets/images/generated/
 assets/photos/client/
 assets/videos/
 docs/
+scripts/
+.github/ISSUE_TEMPLATE/
+```
+
+## Owner update workflow
+
+Owner-requested website updates should come through the AI-agent Gmail account and be converted into reviewable GitHub issues before any site change is committed.
+
+Start here:
+
+```text
+docs/OWNER_UPDATE_WORKFLOW.md
+docs/DOMAIN_AND_CALENDAR_NEXT_STEPS.md
+scripts/gmail_to_github_change_requests.py
+.github/ISSUE_TEMPLATE/owner-site-change-request.yml
+```
+
+Safe default:
+
+```text
+Gmail owner request → GitHub issue → Chris review/approval → website edit → GitHub push → Vercel deploy → live verification
 ```
